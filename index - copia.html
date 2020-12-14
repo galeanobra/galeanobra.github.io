@@ -37,33 +37,6 @@
         }
         </style>
     </noscript>
-	<style>
-	* {
-	  box-sizing: border-box;
-	}
-
-	/* Create three equal columns that floats next to each other */
-	.column {
-	  float: left;
-	  width: 33.33%;
-	  padding: 10px;
-	  height: 300px; /* Should be removed. Only for demonstration */
-	}
-
-	/* Clear floats after the columns */
-	.row:after {
-	  content: "";
-	  display: table;
-	  clear: both;
-	}
-
-	/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
-	@media screen and (max-width: 600px) {
-	  .column {
-	    width: 100%;
-	  }
-	}
-	</style>
 </head>
 
 <body>
@@ -87,41 +60,33 @@
                 <div class="profile_info">
                     <h1><b>Jesús Galeano Brajones</b></h1>
                     <h4>Research Assistant<br>PhD Student</h4>
-
-                    <br>
-
 					<h4><a class="gilab-link" target="_blank" href="https://www.unex.es/conoce-la-uex/centros/cum">Centro Universitario de Mérida<br>University of Extremadura, Spain</a></h4>
-
-					<br>	
                     
 					<!--<h4><span class="fas fa-inbox fa-sm"></span>&nbsp;&nbsp;&nbsp;<a class="gilab-link"  target="_blank" href="mailto:jgaleanobra@unex.es">jgaleanobra@unex.es</a></h4>-->
 					<h6 style="padding-top:5px">
 						<a class="author-link" href="mailto:jgaleanobra@unex.es" target="_blank"><i class="fa fa-envelope fa-2x"></i></a>&nbsp&nbsp&nbsp
 						<a class="author-link" href="./pdf/cvn.pdf" target="_blank"><i class="ai ai-cv-square big-icon fa-2x"></i></a>&nbsp&nbsp&nbsp
-						<a class="author-link" href="https://orcid.org/0000-0001-8691-8944" target="_blank"><i class="ai ai-orcid-square big-icon fa-2x"></i></a>&nbsp&nbsp&nbsp
-						<a class="author-link" href="https://scholar.google.com/citations?user=xQ_Dxl0AAAAJ&hl" target="_blank"><span class="ai ai-google-scholar-square fa-2x"></span></a>&nbsp&nbsp&nbsp
+						<a class="author-link" href="https://scholar.google.com/citations?user=xQ_Dxl0AAAAJ&hl" target="_blank"><span class="ai ai-google-scholar-square fa-2x"></span></a>&nbsp&nbsp&nbsp		
 						<a class="author-link" href="https://www.researchgate.net/profile/Jesus_Galeano-Brajones" target="_blank"><i class="ai ai-researchgate-square fa-2x"></i></a>&nbsp&nbsp&nbsp		
 						
 					</h6>					
                 </div>
                 <div style="clear:both"></div>
             </div>
-            <br>
-            <br>
             <div class="separator-aside"></div>
             <!-- End Profil Image-->
 
             <!-- menu -->
-            <nav style="margin-top:210px">
+            <nav style="margin-top:100px">
                 <a href="#section1"><span class="menu_name">ABOUT</span><span class="fa fa-home"></span> </a>
                 <a href="#section2"><span class="menu_name">PUBLICATIONS</span><span class="fa fa-paperclip"></span> </a>
-                <!--<a href="#section3"><span class="menu_name">INTERNSHIPS</span><span class="fa fa-plane"></span> </a>-->
-                <!--<a href="#section4"><span class="menu_name">TEACHING</span><span class="fa fa-book"></span> </a>-->                
+                <a href="#section3"><span class="menu_name">INTERNSHIPS</span><span class="fa fa-plane"></span> </a>
+                <a href="#section4"><span class="menu_name">TEACHING</span><span class="fa fa-book"></span> </a>                
             </nav>
             
-			<!--<div class="aside-footer" style="font-size:10px">
+			<div class="aside-footer" style="font-size:10px">
                 Theme adapted from <a href="https://themeforest.net/item/pulse-academic-personal-vcard-wordpress-theme/13472101" target="_blank"> PULSE academic</a>
-            </div>-->
+            </div>
             <!-- end social icons -->
         </aside>
         <!-- End sidebar -->
@@ -166,9 +131,15 @@
 								</p><br>
 								<h4>RESEARCH TOPICS</h4> 
 								<p>
-									<i>In progress...</i>
+									My research spans several areas of visual computing, in particular: hyperspectral images,
+									color appearance and virtual reality, with a focus
+									on applying perceptually-motivated solutions. The main objective of my research area is the improvement of the visual appearance in virtual reality devices through computer techniques.
 								
 								</p>								
+							</div>
+							<div class="tab-pane fade in active" id="bio">
+								<img src="images/logos/logo-uex.png" width= "45%" style="margin:0 2%"/> <img src="images/logos/logo-CUMe.png" width= "20%" style="margin:0 1% 0 0"/> <img src="images/logos/logo_gitaca.png" width= "25%" style="float: right; margin:0 1%"/>
+															
 							</div>
 							
 							<span class="before-title">&nbsp </span>
@@ -188,23 +159,12 @@
 									<p style="text-align: center;">
 									<i class="fas fa-envelope-open-text"></i>
 									&nbsp; jgaleanobra@unex.es</p>
-							</div>
-
-							<div class="tab-pane fade in active" id="bio">
-								<div class="row" style="height: 120px">
-									<div class="column">
-										<img src="images/logos/logo-uex.png" width= "100%" style="display: block; margin-left: auto; margin-right: auto;"/>
-									</div>
-									<div class="column">
-										<img src="images/logos/logo-CUMe.png" width= "50%" style="display: block; margin-left: auto; margin-right: auto;"/>
-									</div>
-									<div class="column">
-										<img src="images/logos/logo_gitaca.png" width= "65%" style="display: block; margin-left: auto; margin-right: auto;"/>
-									</div>
-								</div>
+									
 							</div>
 						</div>
 					</div>
+						
+						<br>
                 </article>
                 <!-- End About Section -->
 				
@@ -313,9 +273,150 @@
                 </article>
                 <!-- End Publications Section -->
 				
-				
+				<!-- Internships Section -->
+				<!--
+                <article class="hs-content publication-section" id="section3">
+                    <span class="sec-icon fa fa-plane"></span>
+                    <div class="hs-inner">
+                        <span class="before-title">&nbsp </span>
+                        <h2>INTERNSHIPS</h2>
+                        <!-- Filter/Sort Menu -->
+                        <span class="content-title">INTERNSHIPS AND RESEARCH STAYS DURING MY PHD</span>                        
+                        <!-- End Filter/Sort Menu -->
 
-                
+                        <!-- publication wrapper - Max-Planck institut informatik -->
+                        <div id="mygrid">
+                            <!-- publication item -->
+                            <div class="publication_item">
+                                <div class="media">
+                                    <div class="pull-left">
+                                        <img class="int-pub" src="images/logos/universitàmilano.png"/>
+                                    </div>
+                                    <div class="media-body">
+                                        <h3 class="internship_title">OCT 2019 - DIC 2019</h3>
+                                        <span class="publication_description">Research stay at the <a class="author-link" href="http://mips.di.unimi.it/index.html" target="_blank">MIPS LAB</a> group, Università Degli Studi di Milano (Milano, Italy).</span> 
+                                    </div>
+                                </div>                                
+                            </div>
+                            <!-- End publication item -->                          
+                        </div>
+                        <!-- End Publication Wrapper -->
+                        
+                        <!-- publication wrapper - Oulu -->
+                        <div id="mygrid">
+                            <!-- publication item -->
+                            <div class="publication_item">
+                                <div class="media">
+                                    <div class="pull-left">
+                                        <img class="int-pub" src="images/logos/universityoulu.png"/>
+                                    </div>
+                                    <div class="media-body">
+                                        <h3 class="internship_title">JUN 2019 - JUN 2019</h3>
+                                        <span class="publication_description">Summer School Student (UBISS 2019) at the <a class="author-link" href="https://www.oulu.fi/university/" target="_blank">Oulu University</a> (Oulu, Finland).</span>
+                                        </br><span class="publication_extra">FROM REALITY TO VIRTUALITY: THE SCIENCE AND ART OF CREATING VR EXPERIENCES.</span> 
+
+
+                                    </div>
+                                </div>                                
+                            </div>
+                            <!-- End publication item -->                          
+                        </div>
+                        <!-- End Publication Wrapper -->
+                    </div>
+                    <div class="clear"></div>
+                </article>
+            	-->
+                <!-- End Internships Section -->
+
+                <!-- Teaching Section -->
+                <article class="hs-content teaching-section" id="section4">
+                    <span class="sec-icon fa fa-book"></span>
+                    <div class="hs-inner">
+                        <span class="before-title">&nbsp </span>
+                        <h2>TEACHING</h2>
+                        <div class="teaching-wrapper">
+                            <ul class="teaching">                                
+                                <li class="time-label">
+                                    <span class="content-title">TEACHING HISTORY</span>
+                                </li>
+                                <li>
+                                    <div class="teaching-tag">
+                                        <span class="fa fa-suitcase"></span>
+                                        <div class="teaching-date">
+                                            <span>2021</span>
+                                            <div class="separator"></div>
+                                            <span>2020</span>
+                                        </div>
+                                    </div>
+                                    <div class="timeline-item">
+                                        <h3 class="timeline-header">Programming Fundamentals (Computer and Telecommunications engineering)</h3>
+                                        <div class="timeline-body">
+                                            <h4>University of Extremadura</h4>
+                                            <span>&nbsp;</span>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="teaching-tag">
+                                        <span class="fa fa-suitcase"></span>
+                                        <div class="teaching-date">
+                                            <span>2021</span>
+                                            <div class="separator"></div>
+                                            <span>2020</span>
+                                        </div>
+                                    </div>
+                                    <div class="timeline-item">
+                                        <h3 class="timeline-header">Multimedia communication system (Design engineering)</h3>
+                                        <div class="timeline-body">
+                                            <h4>University of Extremadura</h4>
+											<span>&nbsp;</span>
+                                        </div>
+                                    </div>
+                                </li>                               
+                            </ul>
+                        </div>						
+                        <div class="teaching-wrapper">
+						<!--<ul class="teaching">  
+								<li class="time-label">
+                                    <span class="content-title">SUPERVISED STUDENTS</span>
+                                </li>
+                                <li>
+                                    <div class="timeline-item" style="margin-left: 0px;">
+                                        <div class="timeline-body">
+                                            <p>												
+												<i>This section contains info of previously supervised students at University of Extremadura and it is only available in Spanish.</i>
+											</p>
+											
+										
+                                        </div>		
+                                    </div>
+                                </li>  
+								
+								<li>
+                                    <div class="teaching-tag">
+                                        <span class="fas fa-user-graduate"></span>
+                                        <div class="teaching-date">
+                                            <span>Jan </span>          
+											<span>2020</span>											
+                                        </div>
+                                    </div>
+                                    <div class="timeline-item">
+                                        <h3 class="timeline-header">Estudio y mejora de la reproducción de paralaje para la visualización de contenido 360º en realidad virtual</h3>
+                                        <div class="timeline-body">
+                                            <h4>Autor: Daniel Martín</h4>
+                                            <span>Master en Ing. Informática. MH 9.8/10.0</span>
+											<span style="float: right;right: 5px;">
+											<a href="https://www.dropbox.com/s/dlb0qzsr7eas70c/Resumen_DanielMartin.pdf?raw=1" target="_blank" ><span class="label label-primary" style="color:#fff;">Resumen</span></a>
+											</span>
+										</div>
+                                    </div>
+                                </li>
+								
+								
+								
+                         </ul>	-->
+					</div>
+                </article>
                 
                 <!-- End Contact Section -->
             </div>
